@@ -8,11 +8,12 @@ Depois de:
 -e configurar as credenciais (ACCESS_KEY e SECRET_KEY) no SO local,
 
 Criar um projeto Maven com o seguinte comando no terminal:
-
+```
 mvn -B archetype:generate \
  -DarchetypeGroupId=org.apache.maven.archetypes \
  -DgroupId=com.example.myapp \
  -DartifactId=myapp
+ ```
  
  Depois, colocar a dependência AWS SDK For Java no pom.xml:
  
