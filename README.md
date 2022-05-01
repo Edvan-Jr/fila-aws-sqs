@@ -16,10 +16,11 @@ mvn -B archetype:generate \
  
  Depois, colocar a dependência AWS SDK For Java no pom.xml:
  
- <dependency>
+ ```
+<dependency>
     	<groupId>com.amazonaws</groupId>
     	<artifactId>aws-java-sdk</artifactId>
     	<version>1.12.209</version>
-	</dependency>
+</dependency>
   
   
