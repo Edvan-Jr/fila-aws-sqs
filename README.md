@@ -23,5 +23,4 @@ mvn -B archetype:generate \
     	<artifactId>aws-java-sdk</artifactId>
     	<version>1.12.209</version>
 </dependency>
-  
-  
+```
