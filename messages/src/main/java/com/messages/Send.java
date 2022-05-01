@@ -15,7 +15,7 @@ public class Send {
         AmazonSQS sqs = AmazonSQSClientBuilder.standard().build();
         
         String queueUrl = "https://sqs.us-east-1.amazonaws.com/129395643683/OrdersEdvan";
-        Map<String, MessageAttributeValue> messageAttributes = new HashMap<>();
+        Map<String, MessageAttributeValue> messageAttributes = new HashMap<String, MessageAttributeValue>();
         messageAttributes.put("Name", new MessageAttributeValue()
         	.withStringValue("Edvan")
         	.withDataType("String"));
