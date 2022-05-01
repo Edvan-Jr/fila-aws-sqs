@@ -1,7 +1,7 @@
 # fila-aws-sqs
 Serviço de mensagens em fila usando a Amazon SQS.
 
-Depois de:
+Depois de: <br>
 -criar uma conta na AWS,
 -criar um usuário do IAM,
 -instalar Java e Apache Maven,
