@@ -27,6 +27,6 @@ public class Send {
 //        	withDelaySeconds(5)
         	;
         SendMessageResult result = sqs.sendMessage(send_msg_request);
-        System.out.println(result.getMessageId());
+        System.out.println("MensagemId: " + result.getMessageId());
     }
 }

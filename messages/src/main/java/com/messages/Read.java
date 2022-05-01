@@ -21,9 +21,13 @@ public class Read {
 		
 		List<Message> messages = sqs.receiveMessage(receive_request).getMessages();
 		
+		if (messages.isEmpty()) {
+			System.out.println("Sem mensagens.");
+		}
+		
 		for (Message m : messages) {
 			System.out.println(m.toString());
-			sqs.deleteMessage(queueUrl, m.getReceiptHandle());
+//			sqs.deleteMessage(queueUrl, m.getReceiptHandle());
 		}
 	}
 
