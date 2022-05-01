@@ -2,10 +2,10 @@
 Serviço de mensagens em fila usando a Amazon SQS.
 
 Depois de: <br>
--criar uma conta na AWS,<br>
--criar um usuário do IAM,<br>
--instalar Java e Apache Maven,<br>
--e configurar as credenciais (ACCESS_KEY e SECRET_KEY) no SO local,<br>
+- criar uma conta na AWS,<br>
+- criar um usuário do IAM,<br>
+- instalar Java e Apache Maven,<br>
+- e configurar as credenciais (ACCESS_KEY e SECRET_KEY) no SO local,<br>
 
 Criar um projeto Maven com o seguinte comando no terminal:
 ```
@@ -15,7 +15,7 @@ mvn -B archetype:generate \
  -DartifactId=myapp
  ```
  
- Depois, colocar a dependência AWS SDK For Java no pom.xml:
+ E colocar a dependência AWS SDK For Java no pom.xml:
  
  ```
 <dependency>
